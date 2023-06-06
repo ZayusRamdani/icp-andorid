@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746395341012",
+    "project_id": "kontrolrelay-d4445",
+    "storage_bucket": "kontrolrelay-d4445.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746395341012:android:ef0260526bcca6904a6b41",
+        "android_client_info": {
+          "package_name": "com.example.kontrol_relay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746395341012-j92eff6k2plrs3eomqisd85uqtr8eff2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsvPbGg2sviC7U0H_ldFT0FKDoib8WxrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746395341012-j92eff6k2plrs3eomqisd85uqtr8eff2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

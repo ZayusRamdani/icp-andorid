@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:background="@drawable/homelogo" />
+
+        <Button
+            android:id="@+id/monitoring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000080"
+            android:text="Monitoring"
+            android:textColor="#F1C40F"
+            android:textSize="10pt"
+            tools:ignore="TextContrastCheck"/>
+
+        <Button
+            android:id="@+id/kontroling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="#000080"
+            android:text="Kontroling"
+            android:textColor="#F1C40F"
+            android:textSize="10pt"
+            tools:ignore="TextContrastCheck"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

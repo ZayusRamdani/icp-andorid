@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#AAB7B8"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:background="#0040ff">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="17pt"
+            android:textColor="#00FF7F"
+            android:text="KONTROLING"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Dinamo"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#BDC3C7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#F1C40F"
+            android:text="MESIN 1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_launcher_dinamo" />
+
+            <Button
+                android:id="@+id/onDinamo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#000080"
+                android:text="ON"
+                android:textColor="#7CFC00"
+                android:textSize="10pt"
+                tools:ignore="TextContrastCheck"/>
+            <Button
+                android:id="@+id/offDinamo"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFF"
+                android:textColor="#ff4000"
+                android:background="#000080"
+                android:textSize="10pt"/>
+
+            <TextView
+                android:id="@+id/status1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/Dinamo2"
+        android:layout_below="@id/Dinamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#BDC3C7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#F1C40F"
+            android:text="MESIN 2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_launcher_dinamo_2"/>
+
+            <Button
+                android:id="@+id/onDinamo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#000080"
+                android:text="ON"
+                android:textColor="#7CFC00"
+                android:textSize="10pt"
+                tools:ignore="TextContrastCheck" />
+            <Button
+                android:id="@+id/offDinamo2"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFF"
+                android:textColor="#ff4000"
+                android:background="#000080"
+                android:textSize="10pt"/>
+            <TextView
+                android:id="@+id/status2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/Dinamo3"
+        android:layout_below="@id/Dinamo2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#BDC3C7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#F1C40F"
+            android:text="MESIN 3"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_launcher_dinamo_3"/>
+
+            <Button
+                android:id="@+id/onDinamo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#000080"
+                android:text="ON"
+                android:textColor="#7CFC00"
+                android:textSize="10pt"
+                tools:ignore="TextContrastCheck" />
+            <Button
+                android:id="@+id/offDinamo3"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFF"
+                android:textColor="#ff4000"
+                android:background="#000080"
+                android:textSize="10pt"/>
+
+            <TextView
+                android:id="@+id/status3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="1"/>
+        </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>
+
